@@ -1,10 +1,22 @@
 body {
   margin-top: 0;
+  background-color: whitesmoke;
+}
+
+.grandparent {
+  box-sizing: border-box;
+  /* border: 1px solid green;
+  border-color: 1px solid green; */
+  display: flex;
+  flex-direction: row;
+  align-items: end;
 }
 header {
-  margin: 5%;
+  margin: 0%;
+  margin-left: 5%;
   box-sizing: border-box;
-  border-color: 10px solid red;
+  /* border: 1px solid red;
+  border-color: 10px solid red; */
 }
 
 .head {
@@ -16,33 +28,38 @@ header {
 }
 .head img {
   margin-top: 10px;
-  width: 130px;
-  height: 100px;
+  width: 230px;
+  height: 180px;
+  /* border: 1px solid blue; */
   border-radius: 50%;
 }
 
 .heading {
   margin-top: 0;
   margin-left: 100px;
-  width: auto;
-  height: 30px;
+  width: 1000px;
+  height: 60px;
   align-items: center;
   box-sizing: border-box;
   background-color: gray;
   color: solid black;
-  border-color: 10px solid red;
+  border: 1px solid white;
+  border-color: 10px solid white;
   display: flex;
   flex-direction: row;
   flex-wrap: row;
   justify-content: center;
   gap: 10px;
+  border-radius: 10px;
 }
 
 .subheading {
-  margin-left: 100px;
-  width: auto;
+  margin-left: 276px;
+  width: 1000px;
+  /* border: 1px solid red; */
   background-color: greenyellow;
   text-align: center;
+  border-radius: 10px;
 }
 
 .parent {
